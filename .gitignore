@@ -1,0 +1,17 @@
+# Secrets (set env vars in Render dashboard instead)
+.env
+.env.local
+.env.*.local
+
+# Dependencies (Render installs from package-lock.json)
+node_modules/
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS / editor (optional noise)
+.DS_Store
+Thumbs.db
